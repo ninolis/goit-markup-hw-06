@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>hw-05 main page</title>
+    <title>hw-06 main page</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
@@ -486,13 +486,68 @@
             <use href="./images/icons.svg#icon-close-modal"></use>
           </svg>
         </button>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam unde
-          fuga dolorum ullam nobis excepturi quo doloribus beatae atque,
-          adipisci eius praesentium. Ea enim possimus, ut beatae quae illo
-          culpa? Ipsum exercitationem incidunt aspernatur error aliquam quia,
-          sint sunt quibusdam nesciunt dolore asperiores, necessitatibus at!
+
+        <p class="modal-title">
+          Leave your information and we'll call you back
         </p>
+        <form class="modal-form">
+          <div class="input">
+            <label for="user-name" class="input-label">Name</label>
+            <div class="input-wrap">
+              <input
+                id="user-name"
+                type="text"
+                class="form-input"
+                name="user-name"
+                required="required"
+                autofocus
+              />
+              <svg class="input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person-black-18dp"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="input">
+            <label for="user-tel" class="input-label">Telephone</label>
+            <div class="input-wrap">
+              <input
+                type="tel"
+                class="form-input"
+                name="user-tel"
+                id="user-tel"
+                required="required"
+                maxlength="13"
+              /><svg class="input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone-black-18dp"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="input">
+            <label for="user-email" class="input-label">E-mail</label>
+            <div class="input-wrap">
+              <input
+                type="email"
+                class="form-input"
+                name="user-email"
+                id="user-email"
+                required="required"
+              /><svg class="input-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-email-black-18dp"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="input-coment">
+            <label for="user-coment" class="input-label">Comments</label>
+            <textarea
+              class="form-input-coment"
+              name="user-coment"
+              id="user-coment"
+              cols="48"
+              rows="6"
+              placeholder="Enter the text"
+            ></textarea>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
