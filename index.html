@@ -474,6 +474,29 @@
               </li>
             </ul>
           </div>
+          <div class="footer-subscription">
+            <p class="footer-subscription-title">Subscribe to the newsletter</p>
+            <form class="footer-subscription-form">
+              <label
+                class="footer-subscription-label"
+                for="subscr-email"
+              ></label>
+              <input
+                class="footer-subscription-input"
+                type="email"
+                name="subscr-email"
+                id="subscr-email"
+                placeholder="E-mail"
+                required="required"
+              />
+              <button type="submit" class="footer-subscription-btn-text">
+                Suscribe
+                <svg class="footer-subscription-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -546,6 +569,27 @@
               rows="6"
               placeholder="Enter the text"
             ></textarea>
+          </div>
+          <div class="input-field">
+            <input
+              class="input-check visually-hidden"
+              type="checkbox"
+              name="user-policy"
+              value="true"
+              id="user-policy"
+            />
+            <label for="user-policy" class="checkbox-text">
+              <span>
+                <svg class="icon-check" width="11" height="8">
+                  <use href="./images/icons.svg#icon-checkmark"></use>
+                </svg> </span
+              >I agree with the newsletter and accept the
+              <a href="" class="modal-text-link"
+                >Terms and Conditions</a
+              > </label
+            ><button type="submit" class="modal-button-send modal-button-text">
+              Send
+            </button>
           </div>
         </form>
       </div>
