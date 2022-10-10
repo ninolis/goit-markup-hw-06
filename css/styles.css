@@ -126,7 +126,7 @@ background-color: var(--temp-bg-color);
 
 .navigation-link {
   padding-top: 32px;
-  padding-bottom: 32px;                       
+  padding-bottom: 32px;
   display: block;
   font-weight: 500;
   font-size: 14px;
@@ -520,7 +520,7 @@ background-color: aqua;  temp-color
 fill: currentColor;
 transition: fill var(--primary-hover);
 } */
-    
+
 .customers-link:hover,
 .customers-link:focus {
   fill: var(--secondary-color);
@@ -810,8 +810,6 @@ transition: fill var(--primary-hover);
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-
-
 .project-description-wrapper {
   /* display: flex; */
   /* justify-content: center; */
@@ -852,7 +850,7 @@ transition: fill var(--primary-hover);
 }
 
 .project-title {
-color: var(--primary-text-color);
+  color: var(--primary-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -982,7 +980,8 @@ color: var(--primary-text-color);
 }
 
 .form-input:focus {
-  outline-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  outline: transparent;
 }
 
 .input-icon {
@@ -1032,7 +1031,8 @@ color: var(--primary-text-color);
 }
 
 .form-input-coment:focus {
-  outline-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  outline: transparent;
 }
 
 .input-field {
@@ -1055,7 +1055,8 @@ color: var(--primary-text-color);
   letter-spacing: 0.03em;
   color: var(--secondary-grey-color);
   text-decoration: none;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  /* outline: 2px solid red; */
 }
 
 .checkbox-text span {
@@ -1103,7 +1104,7 @@ color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-grey-color);
+  color: var(--secondary-color);
   transition: color var(--primary-hover);
 }
 
