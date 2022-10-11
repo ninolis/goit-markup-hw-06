@@ -1078,8 +1078,8 @@ transition: fill var(--primary-hover);
 }
 
 .input-check:focus + .checkbox-text span {
-  background-color: var(--socials-color);
-  border: 2px solid var(--secondary-grey-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 2px;
 }
 
 .input-check:checked + .checkbox-text span {
